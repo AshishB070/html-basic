@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Coming Soon...</h1>
+
+    <a href="/"> Go to Home Page</a>
+    <hr />
+
+    <form action="/" method="get" enctype="multipart/form-data">
+      <p>
+        <label for=""> First name </label>
+        <input type="text" required minlength="3" maxlength="15" name="fName" />
+      </p>
+      <p>
+        <label for=""> Last Name</label>
+        <input type="text" name="lName" />
+      </p>
+
+      <p>
+        <lable for=""> Age </lable>
+        <input type="number" min="18" max="65" />
+      </p>
+      <p>
+        <label for=""> Phone </label>
+        <input type="Number" required />
+      </p>
+      <p>
+        <label for=""> Email </label>
+        <input type="email" required />
+      </p>
+      <p>
+        <label for=""> Password </label>
+        <input type="password" required />
+      </p>
+      <p>
+        <label for=""> Linked </label>
+
+        <input type="url" />
+      </p>
+      <p>
+        <label for=""> DOB </label>
+        <input type="date" required />
+        <input type="time" />
+      </p>
+      <p>
+        <label for=""> Message </label>
+        <textarea name="" id="" cols="30" rows="3"></textarea>
+      </p>
+      <p>
+        <label for=""> Gender:</label>
+        <input type="radio" name="Gender" id="Mid" />
+        <label for="Mid"> Male</label>
+
+        <input type="radio" name="Gender" />
+        <label for=""> Female</label>
+
+        <input type="radio" name="Gender" />
+        <label for=""> Other</label>
+      </p>
+      <p>
+        <imput type="checkbox" name="" id="" />
+        <label for=""> I agree T&C </label>
+      </p>
+
+      <p>
+        <label for=""> Fruits:</label>
+        <select name="" id="" multiple>
+          <option values="">--select one--</option>
+          <option value="Mango">Mango</option>
+          <option value="Apple">Apple</option>
+          <option value="Apple">Apple</option>
+          <option value="Orange">Orange</option>
+        </select>
+      </p>
+
+      <p>
+        <input type="file" accept="image/*" multiple />
+      </p>
+      <p>
+        <!-- <input type="submit" />-->
+        <button>Submit</button>
+      </p>
+    </form>
+  </body>
+</html>
